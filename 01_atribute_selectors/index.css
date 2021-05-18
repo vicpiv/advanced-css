@@ -1,0 +1,17 @@
+
+.some-class {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    
+}
+a[target="_blank"]{
+    color: red;
+
+}
+
+div[class*="wrapper"]{
+    width: 400px;
+    height: 300px;
+    background-color:blue;
+}

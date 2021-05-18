@@ -1,0 +1,22 @@
+a[href^="https://www.google.com"] {
+    color: green;
+}
+a[target="_blank"] {
+    color: red;
+}
+p:nth-child(2n-1) {
+    color: blue;
+}
+p:nth-child(2n) {
+    color: red;
+}
+p::after {
+    content: "-New";
+    color: yellow;
+
+}
+p:hover {
+text-transform: uppercase;
+font-style: italic;
+
+}

@@ -1,0 +1,25 @@
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: blue;
+}
+a:focus{
+    color: black;
+}
+a:active {
+    color: yellow;
+}
+#some-div {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    cursor: pointer;
+}
+#some-div:hover{
+    background-color: blueviolet;
+}
